@@ -2,8 +2,8 @@ name: Tarea Automatizada de ejecución de pruebas
 
 env:
   DOTNET_VERSION: '8.x'                     # la versión de .NET
-  SONAR_ORG: 'p-cuadros'                    # Nombre de la organización de sonar cloud
-  SONAR_PROJECT: 'p-cuadros_bancaapp'        # Key ID del proyecto de sonar
+  SONAR_ORG: 'antonychata'                  # Nombre de la organización de sonar cloud
+  SONAR_PROJECT: 'antonychata_BancaApp'     # Key ID del proyecto de sonar
 on:
   push:
     branches: [ "main" ]
